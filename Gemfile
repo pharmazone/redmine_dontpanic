@@ -9,7 +9,7 @@ gem "builder", "3.0.0"
 
 gem "unicorn"
 gem "capistrano"
-gem "rake"
+gem "rake", "~> 10.0.2"
 
 # Optional gem for LDAP authentication
 group :ldap do

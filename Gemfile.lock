@@ -137,7 +137,7 @@ DEPENDENCIES
   net-ldap (~> 0.3.1)
   rack-openid
   rails (= 3.2.8)
-  rake
+  rake (~> 10.0.2)
   rdoc (>= 2.4.2)
   rmagick (>= 2.0.0)
   ruby-openid (~> 2.1.4)

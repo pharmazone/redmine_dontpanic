@@ -86,12 +86,12 @@ default:
     smtp_settings:
       #tls: true
       enable_starttls_auto: true
-      #openssl_verify_mode: 'none'
-      address: dontpanic.com.ua
+      openssl_verify_mode: 'none'
+      address: "dontpanic.com.ua"
       port: 25
       domain: "dontpanic.com.ua"
       #authentication: :login
-      authentication: :login
+      authentication: :plain
       user_name: "redmine@dontpanic.com.ua"
       password: "redmine_email_password"
 

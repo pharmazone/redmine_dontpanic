@@ -89,7 +89,7 @@ default:
       #openssl_verify_mode: 'none'
       address: mail.dontpanic.com.ua
       port: 25
-      #domain: "dontpanic.com.ua"
+      domain: "dontpanic.com.ua"
       #authentication: :login
       authentication: :login
       user_name: "redmine@dontpanic.com.ua"

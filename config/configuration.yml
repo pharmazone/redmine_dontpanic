@@ -87,11 +87,11 @@ default:
       #tls: true
       enable_starttls_auto: true
       #openssl_verify_mode: 'none'
-      address: mail.dontpanic.com.ua
-      port: 587
+      address: dontpanic.com.ua
+      port: 25
       domain: "dontpanic.com.ua"
       #authentication: :login
-      authentication: :plain
+      authentication: :login
       user_name: "redmine@dontpanic.com.ua"
       password: "redmine_email_password"
 

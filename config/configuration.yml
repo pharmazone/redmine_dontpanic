@@ -91,7 +91,7 @@ default:
       port: 25
       domain: "dontpanic.com.ua"
       #authentication: :login
-      authentication: :login
+      authentication: :plain
       user_name: "redmine@dontpanic.com.ua"
       password: "redmine_email_password"
 
